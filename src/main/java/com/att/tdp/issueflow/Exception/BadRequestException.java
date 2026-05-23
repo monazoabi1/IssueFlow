@@ -1,0 +1,8 @@
+package com.att.tdp.issueflow.Exception;
+
+public class BadRequestException extends RuntimeException {
+
+    public BadRequestException(String message) {
+        super(message);
+    }
+}
